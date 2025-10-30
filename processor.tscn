@@ -1,0 +1,77 @@
+[gd_scene load_steps=2 format=3 uid="uid://be8k3x5h5y56n"]
+
+[ext_resource type="Texture2D" uid="uid://cjl2vyvqx0nlo" path="res://icon.svg" id="1_dhbhs"]
+
+[node name="Processor" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 0
+offset_right = 268.0
+offset_bottom = 268.0
+columns = 4
+
+[node name="Button" type="Button" parent="GridContainer"]
+layout_mode = 2
+icon = ExtResource("1_dhbhs")
+
+[node name="Button2" type="Button" parent="GridContainer"]
+layout_mode = 2
+icon = ExtResource("1_dhbhs")
+
+[node name="Button3" type="Button" parent="GridContainer"]
+layout_mode = 2
+icon = ExtResource("1_dhbhs")
+
+[node name="Button4" type="Button" parent="GridContainer"]
+layout_mode = 2
+icon = ExtResource("1_dhbhs")
+
+[node name="Button5" type="Button" parent="GridContainer"]
+layout_mode = 2
+icon = ExtResource("1_dhbhs")
+
+[node name="Button6" type="Button" parent="GridContainer"]
+layout_mode = 2
+icon = ExtResource("1_dhbhs")
+
+[node name="Button7" type="Button" parent="GridContainer"]
+layout_mode = 2
+icon = ExtResource("1_dhbhs")
+
+[node name="Button8" type="Button" parent="GridContainer"]
+layout_mode = 2
+icon = ExtResource("1_dhbhs")
+
+[node name="Button9" type="Button" parent="GridContainer"]
+layout_mode = 2
+icon = ExtResource("1_dhbhs")
+
+[node name="Button10" type="Button" parent="GridContainer"]
+layout_mode = 2
+icon = ExtResource("1_dhbhs")
+
+[node name="Button11" type="Button" parent="GridContainer"]
+layout_mode = 2
+icon = ExtResource("1_dhbhs")
+
+[node name="Button12" type="Button" parent="GridContainer"]
+layout_mode = 2
+icon = ExtResource("1_dhbhs")
+
+[node name="Button13" type="Button" parent="GridContainer"]
+layout_mode = 2
+icon = ExtResource("1_dhbhs")
+
+[node name="Button14" type="Button" parent="GridContainer"]
+layout_mode = 2
+icon = ExtResource("1_dhbhs")
+
+[node name="Button15" type="Button" parent="GridContainer"]
+layout_mode = 2
+icon = ExtResource("1_dhbhs")
+
+[node name="Button16" type="Button" parent="GridContainer"]
+layout_mode = 2
+icon = ExtResource("1_dhbhs")

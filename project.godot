@@ -11,5 +11,11 @@ config_version=5
 [application]
 
 config/name="Rogue Project"
+run/main_scene="uid://be8k3x5h5y56n"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
