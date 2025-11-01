@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Rogue Project"
-run/main_scene="uid://be8k3x5h5y56n"
+run/main_scene="uid://os61xcn11g1y"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -19,3 +19,7 @@ config/icon="res://icon.svg"
 
 window/size/viewport_width=1280
 window/size/viewport_height=720
+
+[rendering]
+
+environment/defaults/default_clear_color=Color(0.18039216, 0.20392157, 0.2509804, 1)

@@ -1,3 +1,23 @@
-[gd_scene format=3 uid="uid://os61xcn11g1y"]
+[gd_scene load_steps=6 format=4 uid="uid://os61xcn11g1y"]
+
+[ext_resource type="TileSet" uid="uid://452tqou5wkiu" path="res://assets/tilesets/wall/wall.tres" id="1_f3sb7"]
+[ext_resource type="PackedScene" uid="uid://cteg7e2f7j4f8" path="res://scenes/doors/glass_door.tscn" id="2_fj7yv"]
+[ext_resource type="PackedScene" uid="uid://dqp353wdfn7mn" path="res://scenes/objects/terminal.tscn" id="3_tlwt5"]
+[ext_resource type="PackedScene" uid="uid://8s8483otnh6i" path="res://scenes/characters/player_character.tscn" id="4_036b0"]
+[ext_resource type="Script" uid="uid://cuyt58a7wq7m7" path="res://scenes/characters/player_character.gd" id="5_dwbse"]
 
 [node name="World" type="Node2D"]
+
+[node name="Walls" type="TileMapLayer" parent="."]
+tile_map_data = PackedByteArray("AAABAAQAAAAEAAAAAAACAAQAAAABAAMAAAADAAQAAAACAAMAAAAFAAQAAAAAAAMAAAAGAAQAAAABAAMAAAAHAAQAAAABAAMAAAAIAAQAAAAHAAAAAAAIAAUAAAADAAEAAAAIAAYAAAADAAEAAAAIAAcAAAADAAEAAAAIAAgAAAAHAAMAAAAHAAgAAAABAAMAAAAGAAgAAAABAAMAAAAFAAgAAAABAAMAAAAEAAgAAAABAAMAAAADAAgAAAABAAMAAAACAAgAAAABAAMAAAABAAgAAAAEAAMAAAABAAcAAAADAAEAAAABAAYAAAADAAEAAAABAAUAAAADAAEAAAA=")
+tile_set = ExtResource("1_f3sb7")
+
+[node name="GlassDoor" parent="." instance=ExtResource("2_fj7yv")]
+position = Vector2(72, 72)
+
+[node name="Terminal" parent="." instance=ExtResource("3_tlwt5")]
+position = Vector2(88, 88)
+
+[node name="PlayerCharacter" parent="." instance=ExtResource("4_036b0")]
+position = Vector2(72, 40)
+script = ExtResource("5_dwbse")

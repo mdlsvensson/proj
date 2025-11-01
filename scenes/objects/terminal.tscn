@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://dqp353wdfn7mn"]
+
+[ext_resource type="Texture2D" uid="uid://b61ug36bpoj41" path="res://assets/objects/terminals/terminal.png" id="1_0lwyd"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0lwyd"]
+size = Vector2(16, 16)
+
+[node name="Terminal" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_0lwyd")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+shape = SubResource("RectangleShape2D_0lwyd")
