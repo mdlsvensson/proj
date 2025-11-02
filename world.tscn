@@ -1,11 +1,13 @@
-[gd_scene load_steps=5 format=4 uid="uid://os61xcn11g1y"]
+[gd_scene load_steps=6 format=4 uid="uid://os61xcn11g1y"]
 
+[ext_resource type="Script" uid="uid://iyecd7g0kd0q" path="res://world.gd" id="1_036b0"]
 [ext_resource type="TileSet" uid="uid://452tqou5wkiu" path="res://assets/tilesets/wall/wall.tres" id="1_f3sb7"]
 [ext_resource type="PackedScene" uid="uid://cteg7e2f7j4f8" path="res://scenes/doors/glass_door.tscn" id="2_fj7yv"]
 [ext_resource type="PackedScene" uid="uid://dqp353wdfn7mn" path="res://scenes/objects/terminal.tscn" id="3_tlwt5"]
 [ext_resource type="PackedScene" uid="uid://8s8483otnh6i" path="res://scenes/characters/player_character.tscn" id="4_036b0"]
 
 [node name="World" type="Node2D"]
+script = ExtResource("1_036b0")
 
 [node name="Walls" type="TileMapLayer" parent="."]
 tile_map_data = PackedByteArray("AAABAAQAAAAEAAAAAAACAAQAAAABAAMAAAADAAQAAAACAAMAAAAFAAQAAAAAAAMAAAAGAAQAAAABAAMAAAAHAAQAAAABAAMAAAAIAAQAAAAHAAAAAAAIAAUAAAADAAEAAAAIAAYAAAADAAEAAAAIAAcAAAADAAEAAAAIAAgAAAAHAAMAAAAHAAgAAAABAAMAAAAGAAgAAAABAAMAAAAFAAgAAAABAAMAAAAEAAgAAAABAAMAAAADAAgAAAABAAMAAAACAAgAAAABAAMAAAABAAgAAAAEAAMAAAABAAcAAAADAAEAAAABAAYAAAADAAEAAAABAAUAAAADAAEAAAA=")
